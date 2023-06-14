@@ -1,0 +1,175 @@
+body {
+    margin: 0%
+;padding:0%;
+box-sizing: border-box; background-color: hsla(234, 100%, 78%, 0.512);}
+.titulo{display: flex;justify-content: center;align-items: center 
+    ;font-family: 'Open Sans', sans-serif;}
+    .titulo {font-size: 400%;}
+header{width: 100%;
+height: 500px;
+background: #2980B9;  
+background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); 
+background: linear-gradient(to right, hsla(0, 0%, 100%, 0.608), hsla(196, 93%, 70%, 0.603), hsla(204, 64%, 44%, 0.601)), url(../Imagenes/fondo2.jpg); background-size: cover;
+background-attachment: fixed;
+}
+.animacionmessi {width: 100px; height: 100px;}
+.animacionmessi {animation: flotar ease-in-out infinite 6s;}
+@keyframes flotar {50% {
+    transform: translate(0,30px);
+}}
+nav{text-align: center;padding: 30px;}
+nav >a {color:#000005;
+font-weight: 300;
+text-decoration: none;
+margin-right: 30px;}
+.lafase {display: flex;justify-content: space-around;}
+
+.arabia {width: 250px;height: 180px; box-shadow: 0 0 10px ; border-radius: 30px;}
+.mexico {width: 250px;height: 180px; box-shadow: 0 0 10px; border-radius: 30px }
+.polonia {width: 250px;height: 180px;box-shadow: 0 0 10px; border-radius: 30px }
+
+:hover .arabia {width: 280px;height: 200px; box-shadow: 0 0 10px ;}
+:hover .mexico {width: 280px;height: 200px; box-shadow: 0 0 10px ;}
+:hover .polonia {width: 280px;height: 200px; box-shadow: 0 0 10px ;}
+.qatar1 {display: flex;justify-content:center;
+font-size: 100% ; color:black;
+margin-top: -50px;}
+.qatar1 {font-family: 'Open Sans', sans-serif;}
+.qatar1 :hover {background-color:hsla(43, 90%, 41%, 0.674);
+padding: 20px;}
+.fase { display: flex;justify-content: center;margin: auto;
+background-color: hsla(233, 100%, 58%, 0.638);color: #FFFFFF;
+padding: 1px;
+align-items: center; font-size: 15px; width: 130px;height: 30px; margin-top: 20px;border:2px solid black;
+}
+
+.ali2 {display: flex; justify-content: space-around;}
+.partidoara {align-items: center;}
+    .partidomexico {align-items: center; }
+    .partidopolonia {align-items: center;}
+
+.textoarabia {display: flex;justify-content: space-around;
+margin-top: 10px;font-size: 15px;;}
+.saudi {
+background-color: hsla(204, 69%, 51%, 0.653);
+color: #FFFFFF; text-align: center;
+margin: 0px 25px;
+border: 2px solid black;}
+.mexi1 {
+    background-color: hsla(204, 69%, 51%, 0.653);
+    color: #FFFFFF;text-align: center;margin: 0px 25px;border: 2px solid black;}
+   
+    .pol1 {background-color: hsla(204, 69%, 51%, 0.653);
+        color: #FFFFFF;text-align: center;margin: 0px 25px;border: 2px solid black; }
+.octavos { display: flex;justify-content: center;margin: auto;
+    background-color: hsla(233, 95%, 51%, 0.833);color: #FFFFFF;
+    padding: 1px;
+    align-items: center; font-size: 15px; width: 130px;height: 30px; margin-top: 20px; border:2px solid black ;font-size: 130%; 
+    }
+    .australia1 {display: flex; justify-content: left; align-items: center ;
+    margin-top: -60px;}
+    .julian {width: 300px;height: 200px; box-shadow: 0 0 10px;border-radius: 20px }
+    .partidoaustralia {width: 200px; height: 200px; color: black; font-size: 110% ; margin-top: 150px; margin-left: 30px;}
+    .australia2{width: 800px;width: 500px;
+        background-color: hsla(204, 69%, 51%, 0.653);
+        color: #FFFFFF;text-align: center;margin: 0px 25px;border: 2px solid black;font-size: 120%;}
+        :hover .julian {width: 350px;height: 250px; box-shadow: 0 0 10px; border-radius: 20px; }
+      
+        .carru {width: 720px;height: auto;margin: 50px auto 0;overflow: hidden; }
+        
+        .carru ul {display: flex;align-items: center;padding: 0%; width: 400%;animation: prueba 15s infinite alternate ease-in-out;box-shadow: 0 0 10px; border-radius: 10px}
+        @keyframes prueba {
+            0% {margin-left: 0%;}
+            20% {margin-left: 0%;}
+
+            25% {margin-left: -100%;}
+            45% {margin-left: -100%;}
+
+            50% {margin-left: -200%;}
+            70% {margin-left: -200%;}
+            
+            75% {margin-left: -300%;}
+            95% {margin-left: -300%;}}
+        .carru li {list-style: none;
+        width: 100%;}
+        .carru img {width: 100%;}
+.marco1 {display: flex;justify-content: center;align-items: center;}
+.laurel2 {width: 100px;height: auto;}
+.laurel3 {width: 100px;height: auto;
+transform: rotate(-360deg);}
+        .victoria1 {font-size: 150%; font-family: 'Courier New', Courier, monospace;}
+    .cuartos { display: flex;justify-content: center;margin: auto;
+        background-color: hsla(233, 95%, 51%, 0.833);color: #FFFFFF;
+        padding: 1px;
+        align-items: center; font-size: 15px; width: 130px;height: 30px; margin-top: 50px; border:2px solid black ;font-size: 130%; 
+        }
+        .todoholanda {display: flex; justify-content: left; align-items: center; margin-top: -70px;}
+        .holanda1 {width: 300px;height: 200px; box-shadow: 0 0 10px;border-radius: 20px; margin-top: 30px;} 
+        .arghol {width: 300px; height: 200px; color: black; font-size: 110% ; margin-top: 220px; margin-left: 10px;}
+        .holanda2 {width: 400px;background-color: hsla(204, 69%, 51%, 0.653);
+            color: #FFFFFF;text-align: center;margin: 0px 25px;border: 2px solid black;font-size: 120%;}
+    .eterno {
+    display: flex;justify-content: center;align-items: center;letter-spacing: 20px; font-size: 250%; margin-top: -50px; background-color: darkgoldenrod; color: #FFFFFF; padding: 2px; border: 1px solid black; text-shadow: 3px 3px 0 black;}
+    .eternum {display: flex; justify-content: center; }
+    .topogigio {width: 250px;height:200px; margin-right: 20px;box-shadow: 0 0 10px; border-radius: 20px}
+    .bobo {width: 350px;height:200px;box-shadow: 0 0 10px; border-radius: 20px}
+    .dibu2 {width: 350px;height:200px;box-shadow: 0 0 10px; border-radius: 20px;margin-left: 25px;} 
+    .semi {display: flex;justify-content: center;margin: auto;
+        background-color: hsla(233, 95%, 51%, 0.833);color: #FFFFFF;
+        padding: 1px;
+        align-items: center; font-size: 15px; width: 130px;height: 30px; margin-top: 50px; border:2px solid black ;font-size: 130%;}
+    .todocroacia {display: flex; justify-content: center; margin-top: 30px;}
+    .cro1 {width: 250px;height: 150px;margin-right: 20px;border:2px solid black ;border-radius: 100px}
+    .cro2 {width: 250px;height: 150px;margin-right: 20px;border:2px solid black ;border-radius: 100px}
+    .cro3 {width: 250px;height: 150px;margin-right: 20px;border:2px solid black ;border-radius: 100px;}
+    .todocroacia2 {display: flex; justify-content: center; margin-top: 5px;}
+    .cro4 {width: 250px;height: 150px;margin-right: 20px;border:2px solid black ;border-radius: 100px}
+    .cro5 {width: 250px;height: 150px;margin-right: 20px;border:2px solid black ;border-radius: 100px}
+    .cro6 {width: 250px;height: 150px;margin-right: 20px;border:2px solid black ;border-radius: 100px;}
+    :hover .cro2{width: 270px;height: 170px;margin-right: 20px;border:2px solid black ;border-radius: 120px}
+    .resultadocro {align-items: center; font-size: 130%;}
+    .detallescro {display: flex;justify-content: center;width: 450px;height: auto;background-color: hsla(204, 69%, 51%, 0.653);
+        color: #FFFFFF;;border: 2px solid black;font-size: 130%; margin-left: 300px;}
+        .final {background-color: darkgoldenrod; color: #FFFFFF ; font-size: 150%;letter-spacing: 15px;font-family: 'Montserrat', sans-serif;
+            ; width: 400px; height: 30px;
+        display: flex;justify-content: center;align-items: center; margin-left: 300px; margin-top: 20px;padding: 2px; border: 2px solid black;
+    text-shadow: 3px 3px 3px black ;}
+    .francia {display: flex; justify-content: left;}
+    .fran1 {width: 300px;height: 200px; box-shadow: 0 0 10px;border-radius: 20px ;margin-top: 30px;} 
+    .argfra {margin-top: 120px;margin-left:  20px;}
+    .campeon {display: flex;justify-content: center;width: 450px;height: auto;background-color: hsla(204, 69%, 51%, 0.653);
+    color: #FFFFFF;;border: 2px solid black;font-size: 130%; margin-left: 50px;} 
+
+    .carru32 {width: 720px;height: 480px;;margin: 200px auto 0;overflow: hidden; margin-top: -20px;}
+        
+    .carru32 ul {display: flex;justify-content: center;align-items: center;padding: 2%; width: 500%;animation: messo 15s infinite alternate ease-in-out;box-shadow: 0 0 10px; border-radius: 10px}
+    @keyframes messo {
+        0% {margin-left: 0%;}
+        15% {margin-left: 0%;}
+
+        20% {margin-left: -100%;}
+        35% {margin-left: -100%;}
+
+        40% {margin-left: -200%;}
+        55% {margin-left: -200%;}
+        
+        60% {margin-left: -300%;}
+        75% {margin-left: -300%;}
+        
+        80% {margin-left: -400%;}
+        95% {margin-left: -400%;}
+  
+    }
+    .carru32 li {list-style: none;
+    width: 100%;}
+    .carru32 img {width: 100%;}
+    .estrellas {display: flex; justify-content: center;align-items: center;width: 800px;height: 400px; margin-left: 120px;}
+    
+    .pregunta {display: flex;justify-content: right;margin: auto;
+        background-color: hsla(233, 95%, 51%, 0.305);color: #FFFFFF;
+        padding: 2%;
+        align-items: center; width: 400px;height: 60px; margin-top: -50px; border:2px solid black ;font-size: 130%; }
+        .formu2 {width:200px ;height: 200px;padding: 5%;
+            margin-top: 30px;background-color: hsla(204, 74%, 54%, 0.338); display: flex; justify-content: center; align-items: center;
+        font-family: 'Times New Roman', Times, serif; border-radius: 50%;
+    flex-direction: column; margin-left: 370px;}
